@@ -20,7 +20,9 @@
         sidebarDisplayLevel: 2,
         subMaxLevel: 2,
         alias: {
-            '/.*/_sidebar.md': '/_sidebar.md'
+            '/.*/_sidebar.md': '/_sidebar.md',
+            '/cs_learn/(.*)': '/content/cs_learn/$1',
+            '/(.*)/(.*)': '/content/$1/$2'
         },
         pagination: {
             previousText: '上一章节',
